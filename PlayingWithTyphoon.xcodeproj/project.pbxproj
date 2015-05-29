@@ -10,11 +10,20 @@
 		0102B8A11B164E2B006A6649 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0102B8A01B164E2B006A6649 /* main.m */; };
 		0102B8A41B164E2B006A6649 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0102B8A31B164E2B006A6649 /* AppDelegate.m */; };
 		0102B8A71B164E2B006A6649 /* PlayingWithTyphoon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0102B8A51B164E2B006A6649 /* PlayingWithTyphoon.xcdatamodeld */; };
-		0102B8AA1B164E2B006A6649 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0102B8A91B164E2B006A6649 /* ViewController.m */; };
-		0102B8AD1B164E2B006A6649 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0102B8AB1B164E2B006A6649 /* Main.storyboard */; };
 		0102B8AF1B164E2B006A6649 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0102B8AE1B164E2B006A6649 /* Images.xcassets */; };
 		0102B8B21B164E2B006A6649 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0102B8B01B164E2B006A6649 /* LaunchScreen.xib */; };
 		0102B8BE1B164E2B006A6649 /* PlayingWithTyphoonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0102B8BD1B164E2B006A6649 /* PlayingWithTyphoonTests.m */; };
+		0102B8D21B1655EC006A6649 /* AppAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 0102B8D11B1655EC006A6649 /* AppAssembly.m */; };
+		0102B8D71B165854006A6649 /* CoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 0102B8D61B165854006A6649 /* CoreDataStack.m */; };
+		0102B8DA1B165961006A6649 /* CoreDataAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 0102B8D91B165961006A6649 /* CoreDataAssembly.m */; };
+		0102B8DD1B165BEF006A6649 /* MainRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0102B8DC1B165BEF006A6649 /* MainRouter.m */; };
+		0102B8E01B165C59006A6649 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0102B8DF1B165C59006A6649 /* CoreDataManager.m */; };
+		0102B8E31B1660A2006A6649 /* RoutersAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 0102B8E21B1660A2006A6649 /* RoutersAssembly.m */; };
+		0102B8E71B16616F006A6649 /* ShowAllNotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0102B8E51B16616F006A6649 /* ShowAllNotesViewController.m */; };
+		0102B8E81B16616F006A6649 /* ShowAllNotesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0102B8E61B16616F006A6649 /* ShowAllNotesViewController.xib */; };
+		0102B8EB1B1661C0006A6649 /* ShowAllNotesRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0102B8EA1B1661C0006A6649 /* ShowAllNotesRouter.m */; };
+		01326BA71B18E6080059313B /* ViewControllersAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 01326BA61B18E6080059313B /* ViewControllersAssembly.m */; };
+		E338EDCDB672E747614B5D53 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC37430DFEDB1318D879215F /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +43,34 @@
 		0102B8A21B164E2B006A6649 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0102B8A31B164E2B006A6649 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0102B8A61B164E2B006A6649 /* PlayingWithTyphoon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlayingWithTyphoon.xcdatamodel; sourceTree = "<group>"; };
-		0102B8A81B164E2B006A6649 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0102B8A91B164E2B006A6649 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0102B8AC1B164E2B006A6649 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0102B8AE1B164E2B006A6649 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0102B8B11B164E2B006A6649 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0102B8B71B164E2B006A6649 /* PlayingWithTyphoonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayingWithTyphoonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0102B8BC1B164E2B006A6649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0102B8BD1B164E2B006A6649 /* PlayingWithTyphoonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayingWithTyphoonTests.m; sourceTree = "<group>"; };
+		0102B8D01B1655EC006A6649 /* AppAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppAssembly.h; path = Assemblies/AppAssembly.h; sourceTree = "<group>"; };
+		0102B8D11B1655EC006A6649 /* AppAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppAssembly.m; path = Assemblies/AppAssembly.m; sourceTree = "<group>"; };
+		0102B8D41B165658006A6649 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = SupportingFiles/PrefixHeader.pch; sourceTree = "<group>"; };
+		0102B8D51B165854006A6649 /* CoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataStack.h; path = CoreData/CoreDataStack.h; sourceTree = "<group>"; };
+		0102B8D61B165854006A6649 /* CoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataStack.m; path = CoreData/CoreDataStack.m; sourceTree = "<group>"; };
+		0102B8D81B165961006A6649 /* CoreDataAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataAssembly.h; path = Assemblies/CoreDataAssembly.h; sourceTree = "<group>"; };
+		0102B8D91B165961006A6649 /* CoreDataAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataAssembly.m; path = Assemblies/CoreDataAssembly.m; sourceTree = "<group>"; };
+		0102B8DB1B165BEF006A6649 /* MainRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainRouter.h; path = Routers/MainRouter.h; sourceTree = "<group>"; };
+		0102B8DC1B165BEF006A6649 /* MainRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainRouter.m; path = Routers/MainRouter.m; sourceTree = "<group>"; };
+		0102B8DE1B165C59006A6649 /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataManager.h; path = CoreData/CoreDataManager.h; sourceTree = "<group>"; };
+		0102B8DF1B165C59006A6649 /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataManager.m; path = CoreData/CoreDataManager.m; sourceTree = "<group>"; };
+		0102B8E11B1660A2006A6649 /* RoutersAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RoutersAssembly.h; path = Assemblies/RoutersAssembly.h; sourceTree = "<group>"; };
+		0102B8E21B1660A2006A6649 /* RoutersAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RoutersAssembly.m; path = Assemblies/RoutersAssembly.m; sourceTree = "<group>"; };
+		0102B8E41B16616F006A6649 /* ShowAllNotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShowAllNotesViewController.h; path = ViewControllers/ShowAllNotesViewController.h; sourceTree = "<group>"; };
+		0102B8E51B16616F006A6649 /* ShowAllNotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShowAllNotesViewController.m; path = ViewControllers/ShowAllNotesViewController.m; sourceTree = "<group>"; };
+		0102B8E61B16616F006A6649 /* ShowAllNotesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ShowAllNotesViewController.xib; path = ViewControllers/ShowAllNotesViewController.xib; sourceTree = "<group>"; };
+		0102B8E91B1661C0006A6649 /* ShowAllNotesRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShowAllNotesRouter.h; path = Routers/ShowAllNotesRouter.h; sourceTree = "<group>"; };
+		0102B8EA1B1661C0006A6649 /* ShowAllNotesRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShowAllNotesRouter.m; path = Routers/ShowAllNotesRouter.m; sourceTree = "<group>"; };
+		01326BA51B18E6080059313B /* ViewControllersAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewControllersAssembly.h; path = Assemblies/ViewControllersAssembly.h; sourceTree = "<group>"; };
+		01326BA61B18E6080059313B /* ViewControllersAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewControllersAssembly.m; path = Assemblies/ViewControllersAssembly.m; sourceTree = "<group>"; };
+		23A90AC7DBF16973B4361996 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		5498CA1545711A0CE64AE15E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		AC37430DFEDB1318D879215F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E338EDCDB672E747614B5D53 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +98,8 @@
 				0102B89D1B164E2B006A6649 /* PlayingWithTyphoon */,
 				0102B8BA1B164E2B006A6649 /* PlayingWithTyphoonTests */,
 				0102B89C1B164E2B006A6649 /* Products */,
+				D02A3DD14C9FFAEA3A11F40E /* Pods */,
+				E387FD785ECF2780A5240EDC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,12 +117,17 @@
 			children = (
 				0102B8A21B164E2B006A6649 /* AppDelegate.h */,
 				0102B8A31B164E2B006A6649 /* AppDelegate.m */,
-				0102B8A81B164E2B006A6649 /* ViewController.h */,
-				0102B8A91B164E2B006A6649 /* ViewController.m */,
-				0102B8AB1B164E2B006A6649 /* Main.storyboard */,
+				0102B8CE1B1655CB006A6649 /* Assemblies */,
+				0102B8CC1B1655A0006A6649 /* Entities */,
+				0102B8C71B16555E006A6649 /* Routers */,
+				0102B8C91B165571006A6649 /* Repositories */,
+				0102B8C81B165564006A6649 /* Interactors */,
+				0102B8CD1B1655B9006A6649 /* Presenters */,
+				0102B8CA1B165580006A6649 /* ViewControllers */,
+				0102B8CB1B165593006A6649 /* CoreData */,
+				0102B8D31B165611006A6649 /* SupportingFiles */,
 				0102B8AE1B164E2B006A6649 /* Images.xcassets */,
 				0102B8B01B164E2B006A6649 /* LaunchScreen.xib */,
-				0102B8A51B164E2B006A6649 /* PlayingWithTyphoon.xcdatamodeld */,
 				0102B89E1B164E2B006A6649 /* Supporting Files */,
 			);
 			path = PlayingWithTyphoon;
@@ -122,6 +159,107 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0102B8C71B16555E006A6649 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				0102B8DB1B165BEF006A6649 /* MainRouter.h */,
+				0102B8DC1B165BEF006A6649 /* MainRouter.m */,
+				0102B8E91B1661C0006A6649 /* ShowAllNotesRouter.h */,
+				0102B8EA1B1661C0006A6649 /* ShowAllNotesRouter.m */,
+			);
+			name = Routers;
+			sourceTree = "<group>";
+		};
+		0102B8C81B165564006A6649 /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Interactors;
+			sourceTree = "<group>";
+		};
+		0102B8C91B165571006A6649 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Repositories;
+			sourceTree = "<group>";
+		};
+		0102B8CA1B165580006A6649 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0102B8E41B16616F006A6649 /* ShowAllNotesViewController.h */,
+				0102B8E51B16616F006A6649 /* ShowAllNotesViewController.m */,
+				0102B8E61B16616F006A6649 /* ShowAllNotesViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0102B8CB1B165593006A6649 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				0102B8A51B164E2B006A6649 /* PlayingWithTyphoon.xcdatamodeld */,
+				0102B8D51B165854006A6649 /* CoreDataStack.h */,
+				0102B8D61B165854006A6649 /* CoreDataStack.m */,
+				0102B8DE1B165C59006A6649 /* CoreDataManager.h */,
+				0102B8DF1B165C59006A6649 /* CoreDataManager.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		0102B8CC1B1655A0006A6649 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		0102B8CD1B1655B9006A6649 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Presenters;
+			sourceTree = "<group>";
+		};
+		0102B8CE1B1655CB006A6649 /* Assemblies */ = {
+			isa = PBXGroup;
+			children = (
+				0102B8D01B1655EC006A6649 /* AppAssembly.h */,
+				0102B8D11B1655EC006A6649 /* AppAssembly.m */,
+				0102B8D81B165961006A6649 /* CoreDataAssembly.h */,
+				0102B8D91B165961006A6649 /* CoreDataAssembly.m */,
+				0102B8E11B1660A2006A6649 /* RoutersAssembly.h */,
+				0102B8E21B1660A2006A6649 /* RoutersAssembly.m */,
+				01326BA51B18E6080059313B /* ViewControllersAssembly.h */,
+				01326BA61B18E6080059313B /* ViewControllersAssembly.m */,
+			);
+			name = Assemblies;
+			sourceTree = "<group>";
+		};
+		0102B8D31B165611006A6649 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				0102B8D41B165658006A6649 /* PrefixHeader.pch */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		D02A3DD14C9FFAEA3A11F40E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23A90AC7DBF16973B4361996 /* Pods.debug.xcconfig */,
+				5498CA1545711A0CE64AE15E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E387FD785ECF2780A5240EDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC37430DFEDB1318D879215F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +267,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0102B8C11B164E2B006A6649 /* Build configuration list for PBXNativeTarget "PlayingWithTyphoon" */;
 			buildPhases = (
+				26A6CA93C0B2810BD2368169 /* Check Pods Manifest.lock */,
 				0102B8971B164E2B006A6649 /* Sources */,
 				0102B8981B164E2B006A6649 /* Frameworks */,
 				0102B8991B164E2B006A6649 /* Resources */,
+				5EFF4C829CDD0F51DD7B0C8B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,8 +342,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0102B8AD1B164E2B006A6649 /* Main.storyboard in Resources */,
 				0102B8B21B164E2B006A6649 /* LaunchScreen.xib in Resources */,
+				0102B8E81B16616F006A6649 /* ShowAllNotesViewController.xib in Resources */,
 				0102B8AF1B164E2B006A6649 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,15 +357,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26A6CA93C0B2810BD2368169 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5EFF4C829CDD0F51DD7B0C8B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0102B8971B164E2B006A6649 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0102B8D71B165854006A6649 /* CoreDataStack.m in Sources */,
 				0102B8A71B164E2B006A6649 /* PlayingWithTyphoon.xcdatamodeld in Sources */,
+				01326BA71B18E6080059313B /* ViewControllersAssembly.m in Sources */,
+				0102B8E01B165C59006A6649 /* CoreDataManager.m in Sources */,
+				0102B8E71B16616F006A6649 /* ShowAllNotesViewController.m in Sources */,
+				0102B8DD1B165BEF006A6649 /* MainRouter.m in Sources */,
+				0102B8DA1B165961006A6649 /* CoreDataAssembly.m in Sources */,
+				0102B8EB1B1661C0006A6649 /* ShowAllNotesRouter.m in Sources */,
+				0102B8D21B1655EC006A6649 /* AppAssembly.m in Sources */,
 				0102B8A41B164E2B006A6649 /* AppDelegate.m in Sources */,
-				0102B8AA1B164E2B006A6649 /* ViewController.m in Sources */,
 				0102B8A11B164E2B006A6649 /* main.m in Sources */,
+				0102B8E31B1660A2006A6649 /* RoutersAssembly.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,14 +429,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0102B8AB1B164E2B006A6649 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0102B8AC1B164E2B006A6649 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0102B8B01B164E2B006A6649 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -349,8 +522,10 @@
 		};
 		0102B8C21B164E2B006A6649 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23A90AC7DBF16973B4361996 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = PlayingWithTyphoon/SupportingFiles/PrefixHeader.pch;
 				INFOPLIST_FILE = PlayingWithTyphoon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -359,8 +534,10 @@
 		};
 		0102B8C31B164E2B006A6649 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5498CA1545711A0CE64AE15E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = PlayingWithTyphoon/SupportingFiles/PrefixHeader.pch;
 				INFOPLIST_FILE = PlayingWithTyphoon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -420,6 +597,7 @@
 				0102B8C31B164E2B006A6649 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0102B8C41B164E2B006A6649 /* Build configuration list for PBXNativeTarget "PlayingWithTyphoonTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +606,7 @@
 				0102B8C61B164E2B006A6649 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
