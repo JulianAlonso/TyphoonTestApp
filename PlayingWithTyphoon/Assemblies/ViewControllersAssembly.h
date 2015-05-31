@@ -10,10 +10,12 @@
 
 @class ShowAllNotesViewController;
 @class RoutersAssembly;
+@class PresentersAssembly;
 
 @interface ViewControllersAssembly : TyphoonAssembly
 
-@property (nonatomic, strong) RoutersAssembly *routersAssembly;
+@property (nonatomic, strong, readonly) RoutersAssembly *routersAssembly;
+@property (nonatomic, strong, readonly) PresentersAssembly *presentersAssembly;
 
 - (ShowAllNotesViewController *)showAllNotesViewController;
 

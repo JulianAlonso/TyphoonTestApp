@@ -7,10 +7,12 @@
 //
 
 #import "AppDelegate.h"
-#import "CoreDataStack.h"
 #import "MainRouter.h"
+#import "CoreDataStack.h"
 
 @interface AppDelegate ()
+
+@property (nonatomic, strong) CoreDataStack *coreDataStack;
 
 @end
 
@@ -18,6 +20,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    self.coreDataStack = [CoreDataStack new];
     [self.mainRouter presentRootViewControllerAtWindow:self.window];
     
     return YES;
@@ -43,7 +46,8 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application
 {
-//    [self.coreDataStack saveContext];
+    [self.coreDataStack saveContext];
 }
+
 
 @end

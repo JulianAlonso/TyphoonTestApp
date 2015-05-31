@@ -14,15 +14,28 @@
 		0102B8B21B164E2B006A6649 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0102B8B01B164E2B006A6649 /* LaunchScreen.xib */; };
 		0102B8BE1B164E2B006A6649 /* PlayingWithTyphoonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0102B8BD1B164E2B006A6649 /* PlayingWithTyphoonTests.m */; };
 		0102B8D21B1655EC006A6649 /* AppAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 0102B8D11B1655EC006A6649 /* AppAssembly.m */; };
-		0102B8D71B165854006A6649 /* CoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 0102B8D61B165854006A6649 /* CoreDataStack.m */; };
-		0102B8DA1B165961006A6649 /* CoreDataAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 0102B8D91B165961006A6649 /* CoreDataAssembly.m */; };
 		0102B8DD1B165BEF006A6649 /* MainRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0102B8DC1B165BEF006A6649 /* MainRouter.m */; };
-		0102B8E01B165C59006A6649 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0102B8DF1B165C59006A6649 /* CoreDataManager.m */; };
 		0102B8E31B1660A2006A6649 /* RoutersAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 0102B8E21B1660A2006A6649 /* RoutersAssembly.m */; };
 		0102B8E71B16616F006A6649 /* ShowAllNotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0102B8E51B16616F006A6649 /* ShowAllNotesViewController.m */; };
 		0102B8E81B16616F006A6649 /* ShowAllNotesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0102B8E61B16616F006A6649 /* ShowAllNotesViewController.xib */; };
 		0102B8EB1B1661C0006A6649 /* ShowAllNotesRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0102B8EA1B1661C0006A6649 /* ShowAllNotesRouter.m */; };
 		01326BA71B18E6080059313B /* ViewControllersAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 01326BA61B18E6080059313B /* ViewControllersAssembly.m */; };
+		017704DC1B1B5CBB00717628 /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 017704DB1B1B5CBB00717628 /* Configuration.plist */; };
+		019D97221B1B6BBD003827E8 /* CoreDataDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 019D97211B1B6BBD003827E8 /* CoreDataDataSource.m */; };
+		019D972B1B1B7098003827E8 /* CoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 019D972A1B1B7098003827E8 /* CoreDataStack.m */; };
+		019D972E1B1B710E003827E8 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 019D972D1B1B710E003827E8 /* CoreDataManager.m */; };
+		019D97321B1B71F0003827E8 /* FetchAllNotesInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 019D97311B1B71F0003827E8 /* FetchAllNotesInteractor.m */; };
+		019D97381B1B75A3003827E8 /* CoreDataNotesRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 019D97371B1B75A3003827E8 /* CoreDataNotesRepository.m */; };
+		019D973E1B1B7723003827E8 /* NoteMO.m in Sources */ = {isa = PBXBuildFile; fileRef = 019D973D1B1B7723003827E8 /* NoteMO.m */; };
+		019D97411B1B7839003827E8 /* InteractorsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 019D97401B1B7839003827E8 /* InteractorsAssembly.m */; };
+		019D97441B1B78A3003827E8 /* RepositoriesAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 019D97431B1B78A3003827E8 /* RepositoriesAssembly.m */; };
+		019D97471B1B799B003827E8 /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 019D97461B1B799B003827E8 /* Note.m */; };
+		019D974B1B1B7A89003827E8 /* NoteParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 019D974A1B1B7A89003827E8 /* NoteParser.m */; };
+		019D97501B1B7DC8003827E8 /* NoteCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 019D974E1B1B7DC8003827E8 /* NoteCollectionViewCell.m */; };
+		019D97511B1B7DC8003827E8 /* NoteCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 019D974F1B1B7DC8003827E8 /* NoteCollectionViewCell.xib */; };
+		019D97551B1B7EBA003827E8 /* NoteCollectionViewCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = 019D97541B1B7EBA003827E8 /* NoteCollectionViewCellController.m */; };
+		019D97581B1B7F18003827E8 /* ShowAllNotesPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 019D97571B1B7F18003827E8 /* ShowAllNotesPresenter.m */; };
+		019D975B1B1B8224003827E8 /* PresentersAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 019D975A1B1B8224003827E8 /* PresentersAssembly.m */; };
 		E338EDCDB672E747614B5D53 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC37430DFEDB1318D879215F /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -51,14 +64,8 @@
 		0102B8D01B1655EC006A6649 /* AppAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppAssembly.h; path = Assemblies/AppAssembly.h; sourceTree = "<group>"; };
 		0102B8D11B1655EC006A6649 /* AppAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppAssembly.m; path = Assemblies/AppAssembly.m; sourceTree = "<group>"; };
 		0102B8D41B165658006A6649 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = SupportingFiles/PrefixHeader.pch; sourceTree = "<group>"; };
-		0102B8D51B165854006A6649 /* CoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataStack.h; path = CoreData/CoreDataStack.h; sourceTree = "<group>"; };
-		0102B8D61B165854006A6649 /* CoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataStack.m; path = CoreData/CoreDataStack.m; sourceTree = "<group>"; };
-		0102B8D81B165961006A6649 /* CoreDataAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataAssembly.h; path = Assemblies/CoreDataAssembly.h; sourceTree = "<group>"; };
-		0102B8D91B165961006A6649 /* CoreDataAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataAssembly.m; path = Assemblies/CoreDataAssembly.m; sourceTree = "<group>"; };
 		0102B8DB1B165BEF006A6649 /* MainRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainRouter.h; path = Routers/MainRouter.h; sourceTree = "<group>"; };
 		0102B8DC1B165BEF006A6649 /* MainRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainRouter.m; path = Routers/MainRouter.m; sourceTree = "<group>"; };
-		0102B8DE1B165C59006A6649 /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataManager.h; path = CoreData/CoreDataManager.h; sourceTree = "<group>"; };
-		0102B8DF1B165C59006A6649 /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataManager.m; path = CoreData/CoreDataManager.m; sourceTree = "<group>"; };
 		0102B8E11B1660A2006A6649 /* RoutersAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RoutersAssembly.h; path = Assemblies/RoutersAssembly.h; sourceTree = "<group>"; };
 		0102B8E21B1660A2006A6649 /* RoutersAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RoutersAssembly.m; path = Assemblies/RoutersAssembly.m; sourceTree = "<group>"; };
 		0102B8E41B16616F006A6649 /* ShowAllNotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShowAllNotesViewController.h; path = ViewControllers/ShowAllNotesViewController.h; sourceTree = "<group>"; };
@@ -68,6 +75,37 @@
 		0102B8EA1B1661C0006A6649 /* ShowAllNotesRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShowAllNotesRouter.m; path = Routers/ShowAllNotesRouter.m; sourceTree = "<group>"; };
 		01326BA51B18E6080059313B /* ViewControllersAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewControllersAssembly.h; path = Assemblies/ViewControllersAssembly.h; sourceTree = "<group>"; };
 		01326BA61B18E6080059313B /* ViewControllersAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewControllersAssembly.m; path = Assemblies/ViewControllersAssembly.m; sourceTree = "<group>"; };
+		017704DB1B1B5CBB00717628 /* Configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Configuration.plist; path = Assemblies/Configuration.plist; sourceTree = "<group>"; };
+		019D97201B1B6BBD003827E8 /* CoreDataDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataDataSource.h; path = DataSource/CoreDataDataSource.h; sourceTree = "<group>"; };
+		019D97211B1B6BBD003827E8 /* CoreDataDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataDataSource.m; path = DataSource/CoreDataDataSource.m; sourceTree = "<group>"; };
+		019D97291B1B7098003827E8 /* CoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataStack.h; path = CoreData/CoreDataStack.h; sourceTree = "<group>"; };
+		019D972A1B1B7098003827E8 /* CoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataStack.m; path = CoreData/CoreDataStack.m; sourceTree = "<group>"; };
+		019D972C1B1B710E003827E8 /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataManager.h; path = CoreData/CoreDataManager.h; sourceTree = "<group>"; };
+		019D972D1B1B710E003827E8 /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataManager.m; path = CoreData/CoreDataManager.m; sourceTree = "<group>"; };
+		019D97301B1B71F0003827E8 /* FetchAllNotesInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FetchAllNotesInteractor.h; path = Interactors/FetchAllNotesInteractor.h; sourceTree = "<group>"; };
+		019D97311B1B71F0003827E8 /* FetchAllNotesInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FetchAllNotesInteractor.m; path = Interactors/FetchAllNotesInteractor.m; sourceTree = "<group>"; };
+		019D97361B1B75A3003827E8 /* CoreDataNotesRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataNotesRepository.h; path = Repositories/CoreDataNotesRepository.h; sourceTree = "<group>"; };
+		019D97371B1B75A3003827E8 /* CoreDataNotesRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataNotesRepository.m; path = Repositories/CoreDataNotesRepository.m; sourceTree = "<group>"; };
+		019D97391B1B75B9003827E8 /* NotesRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotesRepository.h; path = Repositories/NotesRepository.h; sourceTree = "<group>"; };
+		019D973C1B1B7723003827E8 /* NoteMO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoteMO.h; path = CoreData/ManagedObjects/NoteMO.h; sourceTree = "<group>"; };
+		019D973D1B1B7723003827E8 /* NoteMO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoteMO.m; path = CoreData/ManagedObjects/NoteMO.m; sourceTree = "<group>"; };
+		019D973F1B1B7839003827E8 /* InteractorsAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InteractorsAssembly.h; path = Assemblies/InteractorsAssembly.h; sourceTree = "<group>"; };
+		019D97401B1B7839003827E8 /* InteractorsAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InteractorsAssembly.m; path = Assemblies/InteractorsAssembly.m; sourceTree = "<group>"; };
+		019D97421B1B78A3003827E8 /* RepositoriesAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RepositoriesAssembly.h; path = Assemblies/RepositoriesAssembly.h; sourceTree = "<group>"; };
+		019D97431B1B78A3003827E8 /* RepositoriesAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RepositoriesAssembly.m; path = Assemblies/RepositoriesAssembly.m; sourceTree = "<group>"; };
+		019D97451B1B799B003827E8 /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Note.h; path = Entities/Note.h; sourceTree = "<group>"; };
+		019D97461B1B799B003827E8 /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Note.m; path = Entities/Note.m; sourceTree = "<group>"; };
+		019D97491B1B7A89003827E8 /* NoteParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoteParser.h; path = Parsers/NoteParser.h; sourceTree = "<group>"; };
+		019D974A1B1B7A89003827E8 /* NoteParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoteParser.m; path = Parsers/NoteParser.m; sourceTree = "<group>"; };
+		019D974D1B1B7DC8003827E8 /* NoteCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoteCollectionViewCell.h; path = Views/NoteCollectionViewCell.h; sourceTree = "<group>"; };
+		019D974E1B1B7DC8003827E8 /* NoteCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoteCollectionViewCell.m; path = Views/NoteCollectionViewCell.m; sourceTree = "<group>"; };
+		019D974F1B1B7DC8003827E8 /* NoteCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NoteCollectionViewCell.xib; path = Views/NoteCollectionViewCell.xib; sourceTree = "<group>"; };
+		019D97531B1B7EBA003827E8 /* NoteCollectionViewCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoteCollectionViewCellController.h; path = Controllers/NoteCollectionViewCellController.h; sourceTree = "<group>"; };
+		019D97541B1B7EBA003827E8 /* NoteCollectionViewCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoteCollectionViewCellController.m; path = Controllers/NoteCollectionViewCellController.m; sourceTree = "<group>"; };
+		019D97561B1B7F18003827E8 /* ShowAllNotesPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShowAllNotesPresenter.h; path = Presenters/ShowAllNotesPresenter.h; sourceTree = "<group>"; };
+		019D97571B1B7F18003827E8 /* ShowAllNotesPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShowAllNotesPresenter.m; path = Presenters/ShowAllNotesPresenter.m; sourceTree = "<group>"; };
+		019D97591B1B8224003827E8 /* PresentersAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PresentersAssembly.h; path = Assemblies/PresentersAssembly.h; sourceTree = "<group>"; };
+		019D975A1B1B8224003827E8 /* PresentersAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PresentersAssembly.m; path = Assemblies/PresentersAssembly.m; sourceTree = "<group>"; };
 		23A90AC7DBF16973B4361996 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		5498CA1545711A0CE64AE15E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		AC37430DFEDB1318D879215F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,12 +156,16 @@
 				0102B8A21B164E2B006A6649 /* AppDelegate.h */,
 				0102B8A31B164E2B006A6649 /* AppDelegate.m */,
 				0102B8CE1B1655CB006A6649 /* Assemblies */,
+				019D97481B1B7A6F003827E8 /* Parsers */,
 				0102B8CC1B1655A0006A6649 /* Entities */,
 				0102B8C71B16555E006A6649 /* Routers */,
+				019D971F1B1B6BA4003827E8 /* DataSources */,
 				0102B8C91B165571006A6649 /* Repositories */,
 				0102B8C81B165564006A6649 /* Interactors */,
 				0102B8CD1B1655B9006A6649 /* Presenters */,
 				0102B8CA1B165580006A6649 /* ViewControllers */,
+				019D97521B1B7E9F003827E8 /* Controllers */,
+				019D974C1B1B7D97003827E8 /* Views */,
 				0102B8CB1B165593006A6649 /* CoreData */,
 				0102B8D31B165611006A6649 /* SupportingFiles */,
 				0102B8AE1B164E2B006A6649 /* Images.xcassets */,
@@ -173,6 +215,8 @@
 		0102B8C81B165564006A6649 /* Interactors */ = {
 			isa = PBXGroup;
 			children = (
+				019D97301B1B71F0003827E8 /* FetchAllNotesInteractor.h */,
+				019D97311B1B71F0003827E8 /* FetchAllNotesInteractor.m */,
 			);
 			name = Interactors;
 			sourceTree = "<group>";
@@ -180,6 +224,8 @@
 		0102B8C91B165571006A6649 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
+				019D973A1B1B75C0003827E8 /* Implementations */,
+				019D97391B1B75B9003827E8 /* NotesRepository.h */,
 			);
 			name = Repositories;
 			sourceTree = "<group>";
@@ -197,11 +243,12 @@
 		0102B8CB1B165593006A6649 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				019D973B1B1B7717003827E8 /* ManagedObjects */,
 				0102B8A51B164E2B006A6649 /* PlayingWithTyphoon.xcdatamodeld */,
-				0102B8D51B165854006A6649 /* CoreDataStack.h */,
-				0102B8D61B165854006A6649 /* CoreDataStack.m */,
-				0102B8DE1B165C59006A6649 /* CoreDataManager.h */,
-				0102B8DF1B165C59006A6649 /* CoreDataManager.m */,
+				019D97291B1B7098003827E8 /* CoreDataStack.h */,
+				019D972A1B1B7098003827E8 /* CoreDataStack.m */,
+				019D972C1B1B710E003827E8 /* CoreDataManager.h */,
+				019D972D1B1B710E003827E8 /* CoreDataManager.m */,
 			);
 			name = CoreData;
 			sourceTree = "<group>";
@@ -209,6 +256,8 @@
 		0102B8CC1B1655A0006A6649 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				019D97451B1B799B003827E8 /* Note.h */,
+				019D97461B1B799B003827E8 /* Note.m */,
 			);
 			name = Entities;
 			sourceTree = "<group>";
@@ -216,6 +265,8 @@
 		0102B8CD1B1655B9006A6649 /* Presenters */ = {
 			isa = PBXGroup;
 			children = (
+				019D97561B1B7F18003827E8 /* ShowAllNotesPresenter.h */,
+				019D97571B1B7F18003827E8 /* ShowAllNotesPresenter.m */,
 			);
 			name = Presenters;
 			sourceTree = "<group>";
@@ -225,12 +276,17 @@
 			children = (
 				0102B8D01B1655EC006A6649 /* AppAssembly.h */,
 				0102B8D11B1655EC006A6649 /* AppAssembly.m */,
-				0102B8D81B165961006A6649 /* CoreDataAssembly.h */,
-				0102B8D91B165961006A6649 /* CoreDataAssembly.m */,
 				0102B8E11B1660A2006A6649 /* RoutersAssembly.h */,
 				0102B8E21B1660A2006A6649 /* RoutersAssembly.m */,
+				019D973F1B1B7839003827E8 /* InteractorsAssembly.h */,
+				019D97401B1B7839003827E8 /* InteractorsAssembly.m */,
+				019D97591B1B8224003827E8 /* PresentersAssembly.h */,
+				019D975A1B1B8224003827E8 /* PresentersAssembly.m */,
+				019D97421B1B78A3003827E8 /* RepositoriesAssembly.h */,
+				019D97431B1B78A3003827E8 /* RepositoriesAssembly.m */,
 				01326BA51B18E6080059313B /* ViewControllersAssembly.h */,
 				01326BA61B18E6080059313B /* ViewControllersAssembly.m */,
+				017704DB1B1B5CBB00717628 /* Configuration.plist */,
 			);
 			name = Assemblies;
 			sourceTree = "<group>";
@@ -241,6 +297,61 @@
 				0102B8D41B165658006A6649 /* PrefixHeader.pch */,
 			);
 			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		019D971F1B1B6BA4003827E8 /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				019D97201B1B6BBD003827E8 /* CoreDataDataSource.h */,
+				019D97211B1B6BBD003827E8 /* CoreDataDataSource.m */,
+			);
+			name = DataSources;
+			sourceTree = "<group>";
+		};
+		019D973A1B1B75C0003827E8 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				019D97361B1B75A3003827E8 /* CoreDataNotesRepository.h */,
+				019D97371B1B75A3003827E8 /* CoreDataNotesRepository.m */,
+			);
+			name = Implementations;
+			sourceTree = "<group>";
+		};
+		019D973B1B1B7717003827E8 /* ManagedObjects */ = {
+			isa = PBXGroup;
+			children = (
+				019D973C1B1B7723003827E8 /* NoteMO.h */,
+				019D973D1B1B7723003827E8 /* NoteMO.m */,
+			);
+			name = ManagedObjects;
+			sourceTree = "<group>";
+		};
+		019D97481B1B7A6F003827E8 /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				019D97491B1B7A89003827E8 /* NoteParser.h */,
+				019D974A1B1B7A89003827E8 /* NoteParser.m */,
+			);
+			name = Parsers;
+			sourceTree = "<group>";
+		};
+		019D974C1B1B7D97003827E8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				019D974D1B1B7DC8003827E8 /* NoteCollectionViewCell.h */,
+				019D974E1B1B7DC8003827E8 /* NoteCollectionViewCell.m */,
+				019D974F1B1B7DC8003827E8 /* NoteCollectionViewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		019D97521B1B7E9F003827E8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				019D97531B1B7EBA003827E8 /* NoteCollectionViewCellController.h */,
+				019D97541B1B7EBA003827E8 /* NoteCollectionViewCellController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 		D02A3DD14C9FFAEA3A11F40E /* Pods */ = {
@@ -343,7 +454,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0102B8B21B164E2B006A6649 /* LaunchScreen.xib in Resources */,
+				017704DC1B1B5CBB00717628 /* Configuration.plist in Resources */,
 				0102B8E81B16616F006A6649 /* ShowAllNotesViewController.xib in Resources */,
+				019D97511B1B7DC8003827E8 /* NoteCollectionViewCell.xib in Resources */,
 				0102B8AF1B164E2B006A6649 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,18 +508,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0102B8D71B165854006A6649 /* CoreDataStack.m in Sources */,
+				019D973E1B1B7723003827E8 /* NoteMO.m in Sources */,
+				019D97321B1B71F0003827E8 /* FetchAllNotesInteractor.m in Sources */,
 				0102B8A71B164E2B006A6649 /* PlayingWithTyphoon.xcdatamodeld in Sources */,
+				019D975B1B1B8224003827E8 /* PresentersAssembly.m in Sources */,
+				019D97381B1B75A3003827E8 /* CoreDataNotesRepository.m in Sources */,
+				019D97221B1B6BBD003827E8 /* CoreDataDataSource.m in Sources */,
+				019D97581B1B7F18003827E8 /* ShowAllNotesPresenter.m in Sources */,
 				01326BA71B18E6080059313B /* ViewControllersAssembly.m in Sources */,
-				0102B8E01B165C59006A6649 /* CoreDataManager.m in Sources */,
+				019D97441B1B78A3003827E8 /* RepositoriesAssembly.m in Sources */,
 				0102B8E71B16616F006A6649 /* ShowAllNotesViewController.m in Sources */,
+				019D97551B1B7EBA003827E8 /* NoteCollectionViewCellController.m in Sources */,
 				0102B8DD1B165BEF006A6649 /* MainRouter.m in Sources */,
-				0102B8DA1B165961006A6649 /* CoreDataAssembly.m in Sources */,
+				019D97471B1B799B003827E8 /* Note.m in Sources */,
 				0102B8EB1B1661C0006A6649 /* ShowAllNotesRouter.m in Sources */,
 				0102B8D21B1655EC006A6649 /* AppAssembly.m in Sources */,
+				019D97501B1B7DC8003827E8 /* NoteCollectionViewCell.m in Sources */,
+				019D972B1B1B7098003827E8 /* CoreDataStack.m in Sources */,
 				0102B8A41B164E2B006A6649 /* AppDelegate.m in Sources */,
 				0102B8A11B164E2B006A6649 /* main.m in Sources */,
+				019D972E1B1B710E003827E8 /* CoreDataManager.m in Sources */,
+				019D97411B1B7839003827E8 /* InteractorsAssembly.m in Sources */,
 				0102B8E31B1660A2006A6649 /* RoutersAssembly.m in Sources */,
+				019D974B1B1B7A89003827E8 /* NoteParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

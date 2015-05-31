@@ -9,9 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @class ShowAllNotesRouter;
+@class ShowAllNotesPresenter;
 
 @interface ShowAllNotesViewController : UIViewController
 
 @property (nonatomic, strong) ShowAllNotesRouter *router;
+@property (nonatomic, strong) ShowAllNotesPresenter *presenter;
+@property (nonatomic, strong) NSArray *notes;
 
 @end

@@ -2,7 +2,7 @@
 //  CoreDataManager.h
 //  PlayingWithTyphoon
 //
-//  Created by Julian Alonso on 27/5/15.
+//  Created by Julian Alonso on 31/5/15.
 //  Copyright (c) 2015 Julian. All rights reserved.
 //
 
@@ -11,6 +11,12 @@
 @class CoreDataStack;
 
 @interface CoreDataManager : NSObject
+
++ (NSManagedObjectContext *)privateObjectContext;
+
++ (NSManagedObjectContext *)managedObjectContext;
+
++ (NSPersistentStoreCoordinator *)persistenceStoreCordinator;
 
 + (CoreDataStack *)coreDataStack;
 

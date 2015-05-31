@@ -8,16 +8,20 @@
 
 #import "AppAssembly.h"
 #import "AppDelegate.h"
-#import "CoreDataAssembly.h"
 #import "RoutersAssembly.h"
+#import "Typhoon.h"
 
 @implementation AppAssembly
+
+- (id)config
+{
+    return [TyphoonDefinition configDefinitionWithName:@"Configuration.plist"];
+}
 
 - (AppDelegate *)appDelegate
 {
     return [TyphoonDefinition withClass:[AppDelegate class] configuration:^(TyphoonDefinition *definition)
     {
-//        [definition injectProperty:@selector(coreDataStack) with:[_coreDataAssembly coreDataStack]];
         [definition injectProperty:@selector(window) with:[self mainWindow]];
         [definition injectProperty:@selector(mainRouter) with:[_routerAssembly mainRouter]];
     }];
