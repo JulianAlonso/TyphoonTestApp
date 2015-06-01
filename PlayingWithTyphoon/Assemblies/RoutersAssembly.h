@@ -11,6 +11,7 @@
 @class MainRouter;
 @class ShowAllNotesRouter;
 @class ViewControllersAssembly;
+@class EditNoteRouter;
 
 @interface RoutersAssembly : TyphoonAssembly
 
@@ -19,5 +20,7 @@
 - (MainRouter *)mainRouter;
 
 - (ShowAllNotesRouter *)showAllNotesRouter;
+
+- (EditNoteRouter *)editNoteRouter;
 
 @end

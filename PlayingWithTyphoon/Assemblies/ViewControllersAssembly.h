@@ -11,6 +11,7 @@
 @class ShowAllNotesViewController;
 @class RoutersAssembly;
 @class PresentersAssembly;
+@class EditNoteViewController;
 
 @interface ViewControllersAssembly : TyphoonAssembly
 
@@ -18,5 +19,7 @@
 @property (nonatomic, strong, readonly) PresentersAssembly *presentersAssembly;
 
 - (ShowAllNotesViewController *)showAllNotesViewController;
+
+- (EditNoteViewController *)editNoteViewController;
 
 @end

@@ -10,6 +10,7 @@
 #import "MainRouter.h"
 #import "ShowAllNotesRouter.h"
 #import "ViewControllersAssembly.h"
+#import "EditNoteRouter.h"
 
 @implementation RoutersAssembly
 
@@ -26,6 +27,15 @@
     return [TyphoonDefinition withClass:[ShowAllNotesRouter class] configuration:^(TyphoonDefinition *definition)
     {
         [definition injectProperty:@selector(showAllNotesViewController) with:[_viewControllersAssembly showAllNotesViewController]];
+        [definition injectProperty:@selector(routersAssembly) with:self];
+    }];
+}
+
+- (EditNoteRouter *)editNoteRouter
+{
+    return [TyphoonDefinition withClass:[EditNoteRouter class] configuration:^(TyphoonDefinition *definition)
+    {
+        [definition injectProperty:@selector(editNoteViewController) with:[_viewControllersAssembly editNoteViewController]];
     }];
 }
 

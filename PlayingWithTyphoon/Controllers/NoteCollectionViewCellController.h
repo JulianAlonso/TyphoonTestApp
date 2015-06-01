@@ -11,9 +11,16 @@
 @class NoteCollectionViewCell;
 @class Note;
 
+@protocol NoteCollectionViewCellControllerDelegate <NSObject>
+
+- (void)didSelectionCell:(UICollectionViewCell *)colletionViewCell withNote:(Note *)note;
+
+@end
+
 @interface NoteCollectionViewCellController : NSObject
 
 @property (nonatomic, weak) NoteCollectionViewCell *cell;
+@property (nonatomic, weak) id<NoteCollectionViewCellControllerDelegate> delegate;
 @property (nonatomic, strong) Note *note;
 
 - (UICollectionViewCell *)configuredCell;

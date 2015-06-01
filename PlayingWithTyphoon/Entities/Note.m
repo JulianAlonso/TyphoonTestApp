@@ -10,4 +10,13 @@
 
 @implementation Note
 
+- (instancetype)init
+{
+    if (!(self = [super init])) return nil;
+    
+    self.noteCreationDate = [NSDate date];
+    
+    return self;
+}
+
 @end

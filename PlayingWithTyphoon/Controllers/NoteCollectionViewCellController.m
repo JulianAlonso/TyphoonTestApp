@@ -10,11 +10,23 @@
 #import "NoteCollectionViewCell.h"
 #import "Note.h"
 
+@interface NoteCollectionViewCellController () <NoteCollectionViewCellDelegate>
+
+@end
+
 @implementation NoteCollectionViewCellController
 
 - (UICollectionViewCell *)configuredCell
 {
+    self.cell.noteTextLabel.text = self.note.noteText;
+    self.cell.delegate = self;
+    
     return self.cell;
+}
+
+- (void)didTapAtCell:(UICollectionViewCell *)collectionViewCell
+{
+    [self.delegate didSelectionCell:collectionViewCell withNote:self.note];
 }
 
 @end

@@ -12,26 +12,38 @@
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                 <rect key="frame" x="0.0" y="0.0" width="134" height="168"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="chW-JU-4HO">
-                        <rect key="frame" x="0.0" y="0.0" width="134" height="168"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cd3-r5-icJ">
+                        <rect key="frame" x="3" y="3" width="129" height="163"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="chW-JU-4HO">
+                                <rect key="frame" x="5" y="5" width="119" height="153"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="chW-JU-4HO" firstAttribute="top" secondItem="cd3-r5-icJ" secondAttribute="top" constant="5" id="EBB-k7-L3v"/>
+                            <constraint firstAttribute="trailing" secondItem="chW-JU-4HO" secondAttribute="trailing" constant="5" id="PUB-aQ-g1l"/>
+                            <constraint firstAttribute="bottom" secondItem="chW-JU-4HO" secondAttribute="bottom" constant="5" id="dyA-2n-STH"/>
+                            <constraint firstItem="chW-JU-4HO" firstAttribute="leading" secondItem="cd3-r5-icJ" secondAttribute="leading" constant="5" id="ykC-3G-RcV"/>
+                        </constraints>
+                    </view>
                 </subviews>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </view>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="chW-JU-4HO" secondAttribute="trailing" id="KHx-kw-aGh"/>
-                <constraint firstItem="chW-JU-4HO" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Vmx-01-ZLr"/>
-                <constraint firstAttribute="bottom" secondItem="chW-JU-4HO" secondAttribute="bottom" id="bIn-Cx-kka"/>
-                <constraint firstItem="chW-JU-4HO" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="nzC-zp-Zj4"/>
+                <constraint firstItem="cd3-r5-icJ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="2.5" id="Ius-rK-n2K"/>
+                <constraint firstAttribute="trailing" secondItem="cd3-r5-icJ" secondAttribute="trailing" constant="2.5" id="g5q-tJ-cTg"/>
+                <constraint firstItem="cd3-r5-icJ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="2.5" id="k6F-3L-WjF"/>
+                <constraint firstAttribute="bottom" secondItem="cd3-r5-icJ" secondAttribute="bottom" constant="2.5" id="oOE-vb-rUI"/>
             </constraints>
             <size key="customSize" width="134" height="168"/>
             <connections>
                 <outlet property="noteTextLabel" destination="chW-JU-4HO" id="RG5-3v-x2f"/>
             </connections>
-            <point key="canvasLocation" x="417" y="464"/>
+            <point key="canvasLocation" x="58" y="332"/>
         </collectionViewCell>
     </objects>
 </document>

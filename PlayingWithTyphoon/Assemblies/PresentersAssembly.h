@@ -12,6 +12,7 @@
 @class ShowAllNotesPresenter;
 @class InteractorsAssembly;
 @class ViewControllersAssembly;
+@class EditNotePresenter;
 
 @interface PresentersAssembly : TyphoonAssembly
 
@@ -19,5 +20,7 @@
 @property (nonatomic, strong, readonly) ViewControllersAssembly *viewControllerAssembly;
 
 - (ShowAllNotesPresenter *)showAllNotesPresenter;
+
+- (EditNotePresenter *)editNotePresenter;
 
 @end

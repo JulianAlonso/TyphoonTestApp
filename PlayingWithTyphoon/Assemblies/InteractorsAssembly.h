@@ -11,11 +11,13 @@
 
 @class FetchAllNotesInteractor;
 @class RepositoriesAssembly;
+@class CreateOrUpdateNoteInteractor;
 
 @interface InteractorsAssembly : TyphoonAssembly
 
 @property (nonatomic, strong, readonly) RepositoriesAssembly *repositoriesAssembly;
 
 - (FetchAllNotesInteractor *)fetchAllNotesInteractor;
+- (CreateOrUpdateNoteInteractor *)createOrUpdateNoteInteractor;
 
 @end

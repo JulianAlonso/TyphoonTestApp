@@ -11,10 +11,11 @@
 #import "NoteCollectionViewCellController.h"
 #import "NoteCollectionViewCell.h"
 #import "ShowAllNotesPresenter.h"
+#import "ShowAllNotesRouter.h"
 
 NSString *const kShowAllNotesViewControllerNotesProperty = @"notes";
 
-@interface ShowAllNotesViewController () <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, UICollectionViewDelegate>
+@interface ShowAllNotesViewController () <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, UICollectionViewDelegate, NoteCollectionViewCellControllerDelegate>
 
 @property (weak, nonatomic) IBOutlet UICollectionView *notesCollectionView;
 
@@ -30,6 +31,13 @@ NSString *const kShowAllNotesViewControllerNotesProperty = @"notes";
     [super viewDidLoad];
     [self configNotesCollectionView];
     [self registerObservers];
+    [self configNavBar];
+    
+    self.title = @"All My Notes";
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
     [self.presenter updateView];
 }
 
@@ -44,10 +52,17 @@ NSString *const kShowAllNotesViewControllerNotesProperty = @"notes";
     self.notesCollectionView.delegate = self;
     self.notesCollectionView.dataSource = self;
     
-    self.notesCollectionView.backgroundColor = [UIColor whiteColor];
+    self.notesCollectionView.backgroundColor = [UIColor lightGrayColor];
     
     [self.notesCollectionView registerNib:[UINib nibWithNibName:NSStringFromClass([NoteCollectionViewCell class]) bundle:nil]
                forCellWithReuseIdentifier:NSStringFromClass([NoteCollectionViewCell class])];
+}
+
+- (void)configNavBar
+{
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
+                                                                                           target:self
+                                                                                           action:@selector(addButtonTapped)];
 }
 
 
@@ -84,7 +99,20 @@ NSString *const kShowAllNotesViewControllerNotesProperty = @"notes";
     if ([keyPath isEqualToString:kShowAllNotesViewControllerNotesProperty])
     {
         [self updateControllers];
+        [self.notesCollectionView reloadData];
     }
+}
+
+#pragma mark - Action methods.
+- (void)addButtonTapped
+{
+    [self.router navigateToEditNoteViewControllerWithNote:nil];
+}
+
+#pragma mark - NoteCollectionViewCellControllerDelegate methods.
+- (void)didSelectionCell:(UICollectionViewCell *)colletionViewCell withNote:(Note *)note
+{
+    [self.router navigateToEditNoteViewControllerWithNote:note];
 }
 
 #pragma mark - UICollectionViewDataSource methods.
@@ -97,6 +125,7 @@ NSString *const kShowAllNotesViewControllerNotesProperty = @"notes";
     
     controller.cell = cell;
     controller.note = self.notes[indexPath.item];
+    controller.delegate = self;
     
     return [controller configuredCell];
 }
@@ -104,6 +133,25 @@ NSString *const kShowAllNotesViewControllerNotesProperty = @"notes";
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
     return self.notes.count;
+}
+
+#pragma mark - UICollectionViewDelegateFlowLayout methods.
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    CGFloat width  = (CGRectGetWidth(self.notesCollectionView.frame) / 2);
+    CGFloat heihgt = width * 1.4f;
+    
+    return CGSizeMake(width, heihgt);
+}
+
+- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section
+{
+    return 0;
+}
+
+- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section
+{
+    return 0;
 }
 
 @end

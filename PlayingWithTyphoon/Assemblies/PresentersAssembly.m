@@ -10,6 +10,7 @@
 #import "ShowAllNotesPresenter.h"
 #import "InteractorsAssembly.h"
 #import "ViewControllersAssembly.h"
+#import "EditNotePresenter.h"
 
 @implementation PresentersAssembly
 
@@ -19,6 +20,15 @@
     {
         [definition injectProperty:@selector(fetchAllNotesInteractor) with:[_interactorAssembly fetchAllNotesInteractor]];
         [definition injectProperty:@selector(showAllNotesViewController) with:[_viewControllerAssembly showAllNotesViewController]];
+    }];
+}
+
+- (EditNoteViewController *)editNotePresenter
+{
+    return [TyphoonDefinition withClass:[EditNotePresenter class] configuration:^(TyphoonDefinition *definition)
+    {
+        [definition injectProperty:@selector(createOrUpdateNoteInteractor) with:[_interactorAssembly createOrUpdateNoteInteractor]];
+        [definition injectProperty:@selector(editNoteViewController) with:[_viewControllerAssembly editNoteViewController]];
     }];
 }
 

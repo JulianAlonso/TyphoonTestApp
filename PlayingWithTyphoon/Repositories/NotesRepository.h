@@ -8,8 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
+@class Note;
+
 @protocol NotesRepository <NSObject>
 
 - (void)fetchAllNotes:(void(^)(NSArray *notes))completionBlock;
+- (void)createOrUpdateNote:(Note *)note;
 
 @end
