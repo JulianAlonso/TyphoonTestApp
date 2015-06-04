@@ -11,6 +11,8 @@
 @protocol NoteCollectionViewCellDelegate <NSObject>
 
 - (void)didTapAtCell:(UICollectionViewCell *)collectionViewCell;
+- (void)didLongPressAtCell:(UICollectionViewCell *)collectionViewCell;
+- (void)didTappedAtDeleteButton;
 
 @end
 

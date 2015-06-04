@@ -14,6 +14,9 @@
 @protocol NoteCollectionViewCellControllerDelegate <NSObject>
 
 - (void)didSelectionCell:(UICollectionViewCell *)colletionViewCell withNote:(Note *)note;
+- (void)selectCell:(UICollectionViewCell *)collectionViewCell;
+- (void)deleteCell:(UICollectionViewCell *)collectionViewCell withNote:(Note *)note;
+
 
 @end
 

@@ -14,5 +14,6 @@
 
 - (void)fetchAllNotes:(void(^)(NSArray *notes))completionBlock;
 - (void)createOrUpdateNote:(Note *)note;
+- (void)deleteNote:(Note *)note withCompletionblock:(void(^)())completionBlock;
 
 @end

@@ -9,6 +9,7 @@
 #import "ShowAllNotesPresenter.h"
 #import "FetchAllNotesInteractor.h"
 #import "ShowAllNotesViewController.h"
+#import "DeleteNoteInteractor.h"
 
 @implementation ShowAllNotesPresenter
 
@@ -19,6 +20,15 @@
         self.showAllNotesViewController.notes = notes;
         
     }];
+}
+
+- (void)didPressOnDeleteButtonWithNote:(Note *)note
+{
+    NSMutableArray *notes = self.showAllNotesViewController.notes.mutableCopy;
+    [notes removeObject:note];
+    self.showAllNotesViewController.notes = notes;
+    
+    [self.deleteNoteInteractor deleteNote:note completionBlock:nil];
 }
 
 @end

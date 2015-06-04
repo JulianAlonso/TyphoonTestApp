@@ -24,9 +24,20 @@
     return self.cell;
 }
 
+#pragma mark - NoteCollectionViewCellDelegate methods.
 - (void)didTapAtCell:(UICollectionViewCell *)collectionViewCell
 {
     [self.delegate didSelectionCell:collectionViewCell withNote:self.note];
+}
+
+- (void)didLongPressAtCell:(UICollectionViewCell *)collectionViewCell
+{
+    [self.delegate selectCell:collectionViewCell];
+}
+
+- (void)didTappedAtDeleteButton
+{
+    [self.delegate deleteCell:self.cell withNote:self.note];
 }
 
 @end

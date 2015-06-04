@@ -12,6 +12,7 @@
 @class FetchAllNotesInteractor;
 @class RepositoriesAssembly;
 @class CreateOrUpdateNoteInteractor;
+@class DeleteNoteInteractor;
 
 @interface InteractorsAssembly : TyphoonAssembly
 
@@ -19,5 +20,6 @@
 
 - (FetchAllNotesInteractor *)fetchAllNotesInteractor;
 - (CreateOrUpdateNoteInteractor *)createOrUpdateNoteInteractor;
+- (DeleteNoteInteractor *)deleteNoteInteractor;
 
 @end

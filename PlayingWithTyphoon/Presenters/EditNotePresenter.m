@@ -9,6 +9,7 @@
 #import "EditNotePresenter.h"
 #import "Note.h"
 #import "CreateOrUpdateNoteInteractor.h"
+#import "EditNoteViewController.h"
 
 @implementation EditNotePresenter
 
@@ -18,6 +19,8 @@
     {
         self.note = [Note new];
     }
+    
+    self.editNoteViewController.noteTextView.text = self.note.noteText;
 }
 
 - (void)endEditingwithText:(NSString *)text

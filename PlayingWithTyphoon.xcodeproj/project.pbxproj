@@ -23,6 +23,8 @@
 		011688841B1B98E10019EB0B /* EditNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 011688821B1B98E10019EB0B /* EditNoteViewController.m */; };
 		011688851B1B98E10019EB0B /* EditNoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 011688831B1B98E10019EB0B /* EditNoteViewController.xib */; };
 		01326BA71B18E6080059313B /* ViewControllersAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 01326BA61B18E6080059313B /* ViewControllersAssembly.m */; };
+		015D381A1B21058800B1B156 /* DeleteNoteInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 015D38191B21058800B1B156 /* DeleteNoteInteractor.m */; };
+		015D381E1B21093600B1B156 /* CustomFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 015D381D1B21093600B1B156 /* CustomFlowLayout.m */; };
 		017704DC1B1B5CBB00717628 /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 017704DB1B1B5CBB00717628 /* Configuration.plist */; };
 		018665F11B1CEC610089ECFF /* EditNotePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 018665F01B1CEC610089ECFF /* EditNotePresenter.m */; };
 		018665F41B1CED730089ECFF /* CreateOrUpdateNoteInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 018665F31B1CED730089ECFF /* CreateOrUpdateNoteInteractor.m */; };
@@ -86,6 +88,10 @@
 		011688831B1B98E10019EB0B /* EditNoteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EditNoteViewController.xib; path = ViewControllers/EditNoteViewController.xib; sourceTree = "<group>"; };
 		01326BA51B18E6080059313B /* ViewControllersAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewControllersAssembly.h; path = Assemblies/ViewControllersAssembly.h; sourceTree = "<group>"; };
 		01326BA61B18E6080059313B /* ViewControllersAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewControllersAssembly.m; path = Assemblies/ViewControllersAssembly.m; sourceTree = "<group>"; };
+		015D38181B21058800B1B156 /* DeleteNoteInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeleteNoteInteractor.h; path = Interactors/DeleteNoteInteractor.h; sourceTree = "<group>"; };
+		015D38191B21058800B1B156 /* DeleteNoteInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeleteNoteInteractor.m; path = Interactors/DeleteNoteInteractor.m; sourceTree = "<group>"; };
+		015D381C1B21093600B1B156 /* CustomFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomFlowLayout.h; path = Layouts/CustomFlowLayout.h; sourceTree = "<group>"; };
+		015D381D1B21093600B1B156 /* CustomFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomFlowLayout.m; path = Layouts/CustomFlowLayout.m; sourceTree = "<group>"; };
 		017704DB1B1B5CBB00717628 /* Configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Configuration.plist; path = Assemblies/Configuration.plist; sourceTree = "<group>"; };
 		018665EF1B1CEC610089ECFF /* EditNotePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditNotePresenter.h; path = Presenters/EditNotePresenter.h; sourceTree = "<group>"; };
 		018665F01B1CEC610089ECFF /* EditNotePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditNotePresenter.m; path = Presenters/EditNotePresenter.m; sourceTree = "<group>"; };
@@ -183,6 +189,7 @@
 				0102B8CA1B165580006A6649 /* ViewControllers */,
 				019D97521B1B7E9F003827E8 /* Controllers */,
 				019D974C1B1B7D97003827E8 /* Views */,
+				015D381B1B21091300B1B156 /* Layouts */,
 				0102B8CB1B165593006A6649 /* CoreData */,
 				0102B8D31B165611006A6649 /* SupportingFiles */,
 				0102B8AE1B164E2B006A6649 /* Images.xcassets */,
@@ -238,6 +245,8 @@
 				019D97311B1B71F0003827E8 /* FetchAllNotesInteractor.m */,
 				018665F21B1CED730089ECFF /* CreateOrUpdateNoteInteractor.h */,
 				018665F31B1CED730089ECFF /* CreateOrUpdateNoteInteractor.m */,
+				015D38181B21058800B1B156 /* DeleteNoteInteractor.h */,
+				015D38191B21058800B1B156 /* DeleteNoteInteractor.m */,
 			);
 			name = Interactors;
 			sourceTree = "<group>";
@@ -323,6 +332,15 @@
 				0102B8D41B165658006A6649 /* PrefixHeader.pch */,
 			);
 			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		015D381B1B21091300B1B156 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				015D381C1B21093600B1B156 /* CustomFlowLayout.h */,
+				015D381D1B21093600B1B156 /* CustomFlowLayout.m */,
+			);
+			name = Layouts;
 			sourceTree = "<group>";
 		};
 		018665F51B1CEF0D0089ECFF /* Implementations */ = {
@@ -559,6 +577,7 @@
 				019D97441B1B78A3003827E8 /* RepositoriesAssembly.m in Sources */,
 				0102B8E71B16616F006A6649 /* ShowAllNotesViewController.m in Sources */,
 				019D97551B1B7EBA003827E8 /* NoteCollectionViewCellController.m in Sources */,
+				015D381A1B21058800B1B156 /* DeleteNoteInteractor.m in Sources */,
 				0102B8DD1B165BEF006A6649 /* MainRouter.m in Sources */,
 				019D97471B1B799B003827E8 /* Note.m in Sources */,
 				0102B8EB1B1661C0006A6649 /* ShowAllNotesRouter.m in Sources */,
@@ -568,6 +587,7 @@
 				019D972B1B1B7098003827E8 /* CoreDataStack.m in Sources */,
 				0102B8A41B164E2B006A6649 /* AppDelegate.m in Sources */,
 				0102B8A11B164E2B006A6649 /* main.m in Sources */,
+				015D381E1B21093600B1B156 /* CustomFlowLayout.m in Sources */,
 				019D972E1B1B710E003827E8 /* CoreDataManager.m in Sources */,
 				019D97411B1B7839003827E8 /* InteractorsAssembly.m in Sources */,
 				018665F81B1CEF2B0089ECFF /* NoteMO+Implementation.m in Sources */,

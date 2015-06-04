@@ -74,4 +74,25 @@
     [self.managedObjectContext save:&error];
 }
 
+- (void)deleteNote:(Note *)note withCompletionblock:(void (^)())completionBlock
+{
+    NSFetchRequest *fetchRequest = [NSFetchRequest fetchRequestWithEntityName:NSStringFromClass([NoteMO class])];
+    fetchRequest.predicate = [NSPredicate predicateWithFormat:@"%K == %@", kNoteMOCreationDateProperty, note.noteCreationDate];
+    
+    NSError *error;
+    NoteMO *foundNote = [self.managedObjectContext executeFetchRequest:fetchRequest error:&error].firstObject;
+    
+    if (foundNote)
+    {
+        [self.managedObjectContext deleteObject:foundNote];
+        [self.managedObjectContext save:&error];
+    }
+    
+    if (completionBlock)
+    {
+        completionBlock();
+    }
+
+}
+
 @end

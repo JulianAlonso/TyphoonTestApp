@@ -12,6 +12,7 @@
 #import "NoteCollectionViewCell.h"
 #import "ShowAllNotesPresenter.h"
 #import "ShowAllNotesRouter.h"
+#import "CustomFlowLayout.h"
 
 NSString *const kShowAllNotesViewControllerNotesProperty = @"notes";
 
@@ -113,6 +114,23 @@ NSString *const kShowAllNotesViewControllerNotesProperty = @"notes";
 - (void)didSelectionCell:(UICollectionViewCell *)colletionViewCell withNote:(Note *)note
 {
     [self.router navigateToEditNoteViewControllerWithNote:note];
+}
+
+- (void)selectCell:(UICollectionViewCell *)collectionViewCell
+{
+    [self.notesCollectionView selectItemAtIndexPath:[self.notesCollectionView indexPathForCell:collectionViewCell]
+                                           animated:YES
+                                     scrollPosition:UICollectionViewScrollPositionNone];
+}
+
+- (void)deleteCell:(UICollectionViewCell *)collectionViewCell withNote:(Note *)note
+{
+    [self.notesCollectionView performBatchUpdates:^{
+        [self.presenter didPressOnDeleteButtonWithNote:note];
+        [self.notesCollectionView deleteItemsAtIndexPaths:@[[self.notesCollectionView indexPathForCell:collectionViewCell]]];
+    } completion:^(BOOL finished) {
+        [self.notesCollectionView reloadData];
+    }];
 }
 
 #pragma mark - UICollectionViewDataSource methods.

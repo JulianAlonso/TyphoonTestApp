@@ -20,6 +20,7 @@
     {
         [definition injectProperty:@selector(fetchAllNotesInteractor) with:[_interactorAssembly fetchAllNotesInteractor]];
         [definition injectProperty:@selector(showAllNotesViewController) with:[_viewControllerAssembly showAllNotesViewController]];
+        [definition injectProperty:@selector(deleteNoteInteractor) with:[_interactorAssembly deleteNoteInteractor]];
     }];
 }
 

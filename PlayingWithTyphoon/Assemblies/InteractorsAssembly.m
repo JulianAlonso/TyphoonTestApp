@@ -10,6 +10,7 @@
 #import "FetchAllNotesInteractor.h"
 #import "RepositoriesAssembly.h"
 #import "CreateOrUpdateNoteInteractor.h"
+#import "DeleteNoteInteractor.h"
 
 @implementation InteractorsAssembly
 
@@ -24,6 +25,14 @@
 - (CreateOrUpdateNoteInteractor *)createOrUpdateNoteInteractor
 {
     return [TyphoonDefinition withClass:[CreateOrUpdateNoteInteractor class] configuration:^(TyphoonDefinition *definition)
+    {
+        [definition injectProperty:@selector(notesRepository) with:[_repositoriesAssembly notesRepository]];
+    }];
+}
+
+- (DeleteNoteInteractor *)deleteNoteInteractor
+{
+    return [TyphoonDefinition withClass:[DeleteNoteInteractor class] configuration:^(TyphoonDefinition *definition)
     {
         [definition injectProperty:@selector(notesRepository) with:[_repositoriesAssembly notesRepository]];
     }];
