@@ -17,4 +17,6 @@
 @property (nonatomic, strong) ShowAllNotesPresenter *presenter;
 @property (nonatomic, strong) NSArray *notes;
 
+@property (nonatomic, strong) NSString *injectedThingToLog;
+
 @end

@@ -19,6 +19,8 @@
 		0102B8E71B16616F006A6649 /* ShowAllNotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0102B8E51B16616F006A6649 /* ShowAllNotesViewController.m */; };
 		0102B8E81B16616F006A6649 /* ShowAllNotesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0102B8E61B16616F006A6649 /* ShowAllNotesViewController.xib */; };
 		0102B8EB1B1661C0006A6649 /* ShowAllNotesRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0102B8EA1B1661C0006A6649 /* ShowAllNotesRouter.m */; };
+		0115FDD41B47281C00384FA2 /* OtherConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0115FDD31B47281C00384FA2 /* OtherConfig.plist */; };
+		0115FDD61B47297F00384FA2 /* Property.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0115FDD51B47297F00384FA2 /* Property.plist */; };
 		011688801B1B98CD0019EB0B /* EditNoteRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0116887F1B1B98CD0019EB0B /* EditNoteRouter.m */; };
 		011688841B1B98E10019EB0B /* EditNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 011688821B1B98E10019EB0B /* EditNoteViewController.m */; };
 		011688851B1B98E10019EB0B /* EditNoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 011688831B1B98E10019EB0B /* EditNoteViewController.xib */; };
@@ -81,6 +83,8 @@
 		0102B8E61B16616F006A6649 /* ShowAllNotesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ShowAllNotesViewController.xib; path = ViewControllers/ShowAllNotesViewController.xib; sourceTree = "<group>"; };
 		0102B8E91B1661C0006A6649 /* ShowAllNotesRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShowAllNotesRouter.h; path = Routers/ShowAllNotesRouter.h; sourceTree = "<group>"; };
 		0102B8EA1B1661C0006A6649 /* ShowAllNotesRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShowAllNotesRouter.m; path = Routers/ShowAllNotesRouter.m; sourceTree = "<group>"; };
+		0115FDD31B47281C00384FA2 /* OtherConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = OtherConfig.plist; sourceTree = "<group>"; };
+		0115FDD51B47297F00384FA2 /* Property.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Property.plist; sourceTree = "<group>"; };
 		0116887E1B1B98CD0019EB0B /* EditNoteRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditNoteRouter.h; path = Routers/EditNoteRouter.h; sourceTree = "<group>"; };
 		0116887F1B1B98CD0019EB0B /* EditNoteRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditNoteRouter.m; path = Routers/EditNoteRouter.m; sourceTree = "<group>"; };
 		011688811B1B98E10019EB0B /* EditNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditNoteViewController.h; path = ViewControllers/EditNoteViewController.h; sourceTree = "<group>"; };
@@ -322,6 +326,8 @@
 				01326BA51B18E6080059313B /* ViewControllersAssembly.h */,
 				01326BA61B18E6080059313B /* ViewControllersAssembly.m */,
 				017704DB1B1B5CBB00717628 /* Configuration.plist */,
+				0115FDD31B47281C00384FA2 /* OtherConfig.plist */,
+				0115FDD51B47297F00384FA2 /* Property.plist */,
 			);
 			name = Assemblies;
 			sourceTree = "<group>";
@@ -507,10 +513,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0115FDD41B47281C00384FA2 /* OtherConfig.plist in Resources */,
 				0102B8B21B164E2B006A6649 /* LaunchScreen.xib in Resources */,
 				017704DC1B1B5CBB00717628 /* Configuration.plist in Resources */,
 				0102B8E81B16616F006A6649 /* ShowAllNotesViewController.xib in Resources */,
 				019D97511B1B7DC8003827E8 /* NoteCollectionViewCell.xib in Resources */,
+				0115FDD61B47297F00384FA2 /* Property.plist in Resources */,
 				011688851B1B98E10019EB0B /* EditNoteViewController.xib in Resources */,
 				0102B8AF1B164E2B006A6649 /* Images.xcassets in Resources */,
 			);

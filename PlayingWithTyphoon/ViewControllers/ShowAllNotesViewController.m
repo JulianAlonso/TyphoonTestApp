@@ -35,6 +35,8 @@ NSString *const kShowAllNotesViewControllerNotesProperty = @"notes";
     [self configNavBar];
     
     self.title = @"All My Notes";
+    
+    NSLog(@"Injected thing to log: %@", self.injectedThingToLog);
 }
 
 - (void)viewWillAppear:(BOOL)animated

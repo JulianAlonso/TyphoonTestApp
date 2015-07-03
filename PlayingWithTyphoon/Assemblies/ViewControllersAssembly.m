@@ -14,6 +14,17 @@
 #import "EditNoteViewController.h"
 
 @implementation ViewControllersAssembly
+//this method dont override the method with the same name in AppAssembly and load the two plist.
+- (id)config
+{
+    return [TyphoonDefinition configDefinitionWithName:@"OtherConfig.plist"];
+}
+
+//Testing load more than one .plist
+- (id)configuration
+{
+    return [TyphoonDefinition configDefinitionWithName:@"Property.plist"];
+}
 
 - (ShowAllNotesViewController *)showAllNotesViewController
 {
@@ -21,6 +32,7 @@
     {
         [definition injectProperty:@selector(router) with:[_routersAssembly showAllNotesRouter]];
         [definition injectProperty:@selector(presenter) with:[_presentersAssembly showAllNotesPresenter]];
+        [definition injectProperty:@selector(injectedThingToLog) with:TyphoonConfig(@"OtherThing")]; //Here u can load anything from any .plist
     }];
 }
 

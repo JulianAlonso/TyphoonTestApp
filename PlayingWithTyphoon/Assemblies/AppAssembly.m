@@ -15,6 +15,9 @@
 
 - (id)config
 {
+//    TyphoonConfigPostProcessor *otherConfig = [TyphoonConfigPostProcessor forResourceNamed:@"OtherConfig.plist"];
+//    [self attachPostProcessor:otherConfig];
+//    
     return [TyphoonDefinition configDefinitionWithName:@"Configuration.plist"];
 }
 
