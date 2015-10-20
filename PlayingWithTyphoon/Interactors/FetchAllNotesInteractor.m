@@ -12,7 +12,8 @@
 
 - (void)fetchAllNotesWithCompletionBlock:(void(^)(NSArray *notes))completionBlock
 {
-	[self.notesRepository fetchAllNotes:^(NSArray *notes) {
+	[self.notesRepository fetchAllNotes:^(NSArray *notes)
+    {
         completionBlock(notes);
     }];
 }

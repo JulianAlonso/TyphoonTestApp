@@ -19,4 +19,24 @@
     return self;
 }
 
+- (BOOL)isEqual:(id)object
+{
+    if (self == object)
+    {
+        return YES;
+    }
+    
+    if (![self isKindOfClass:object])
+    {
+        return NO;
+    }
+    
+    return [self isEqualToNote:object];
+}
+
+- (BOOL)isEqualToNote:(Note *)note
+{
+    return [self.noteCreationDate isEqualToDate:note.noteCreationDate];
+}
+
 @end
