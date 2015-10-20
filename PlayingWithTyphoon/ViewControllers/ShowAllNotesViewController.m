@@ -131,7 +131,7 @@ NSString *const kShowAllNotesViewControllerNotesProperty = @"notes";
         [self.presenter didPressOnDeleteButtonWithNote:note];
         [self.notesCollectionView deleteItemsAtIndexPaths:@[[self.notesCollectionView indexPathForCell:collectionViewCell]]];
     } completion:^(BOOL finished) {
-        [self.notesCollectionView reloadData];
+//        [self.notesCollectionView reloadData];
     }];
 }
 
